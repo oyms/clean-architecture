@@ -1,0 +1,26 @@
+{
+	"name": "Clean-Architecture-Workshop",
+	"image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
+
+	"features": {
+		"ghcr.io/devcontainers/features/java:1": {
+			"version": "none",
+			"installMaven": "true",
+			"installGradle": "false"
+		}
+	},
+
+	"forwardPorts": [8080],
+
+	"postCreateCommand": "sdk selfupdate force && sdk install kotlin && mvn clean install",
+
+	// Configure tool-specific properties.
+  "customizations" : {
+    "jetbrains" : {
+      "backend" : "IntelliJ"
+    }
+  },
+
+	"workspaceFolder": "/workspace",
+	"remoteUser": "root"
+}
