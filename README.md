@@ -1,4 +1,10 @@
 # clean-architecture
+
+> [!NOTE]
+> Hensikten med denne øvelsen er å se en arkitekturimplementasjon i praksis.
+> Oppbygging av moduler er relativt typisk for denne typen arkitektur.
+> Oppgavene gir deg innsikt i hvordan det er bygget opp.
+
 Repo for clean architecture workshop.
 Implementasjonen er inspirert av Clean Architecture fra https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 Basert på clean architecture workshopen laget av Henrik Wingerei og Espen Ekvang(https://github.com/henriwi/clean-architecture).
